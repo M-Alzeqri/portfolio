@@ -44,7 +44,7 @@ url: "https://your-username.github.io" # Replace with your actual GitHub Pages U
 # Theme Configuration
 # =============================================================================
 
-remote_theme: mmistakes/minimal-mistakes@v4.23.0 # Specify the theme and version
+remote_theme: mmistakes/minimal-mistakes@v4.23.1 # Specify the correct theme and version
 
 # =============================================================================
 # Plugins
