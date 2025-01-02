@@ -11,6 +11,8 @@ main:
     url: "/cs/"
   - title: "Quantitative Finance"
     url: "/quant/"
+  - title: "Contact"
+    url: "/contact/"
   - title: "Posts"
     url: "/posts/"
   - title: "Categories"
