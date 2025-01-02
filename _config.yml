@@ -14,17 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# Site settings
+
+
+# =============================================================================
+# Site Settings
+# =============================================================================
+
 title: Portfolio
-logo: "/assets/images/integral.png"
-# subtitle: "Version 2.0"
 email: mohalzeqri@gmail.com
 description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
-github_username: M-Alzeqri
-minimal_mistakes_skin: contrast
-search: true
 lang: en
 
 # =============================================================================
@@ -33,10 +33,10 @@ lang: en
 
 # If your site is hosted at https://your-username.github.io/portfolio/, set baseurl to "/portfolio"
 # If hosted at the root, leave it empty
-baseurl: "/portfolio"
+baseurl: "" # e.g., "/portfolio" or ""
 
 # Your GitHub Pages URL without the trailing slash
-url: "https://m-alzeqri.github.io" # Replace with your actual GitHub Pages URL
+url: "https://your-username.github.io" # Replace with your actual GitHub Pages URL
 
 # =============================================================================
 # Theme Configuration
