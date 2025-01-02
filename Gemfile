@@ -8,6 +8,9 @@ source "https://rubygems.org"
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Jekyll Core
+gem "jekyll", "~> 4.2.0"
+
 # Jekyll Plugins
 group :jekyll_plugins do
   gem "jekyll-paginate-v2", "~> 1.5"
