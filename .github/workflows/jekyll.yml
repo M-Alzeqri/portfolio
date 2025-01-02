@@ -2,9 +2,9 @@ name: Jekyll Site CI
 
 on:
   push:
-    branches: [ master ]       # Use 'main' if that's your default branch
+    branches: [ master ]       # Default branch set to 'master'
   pull_request:
-    branches: [ master ]       # Use 'main' if that's your default branch
+    branches: [ master ]
 
 permissions:
   contents: write
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04      # Temporarily specify 'ubuntu-22.04' for compatibility
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
@@ -22,7 +22,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true      # Corrected input
+          bundler-cache: true
 
       - name: Install dependencies
         run: |
@@ -37,6 +37,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages     # Deploy to 'gh-pages' branch
+          publish_branch: gh-pages    # Deploy to 'gh-pages' branch
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
