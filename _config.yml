@@ -17,7 +17,7 @@
 # Site settings
 title: Portfolio
 logo: "/assets/images/integral.png"
-subtitle: "Version 2.0"
+# subtitle: "Version 2.0"
 email: mohalzeqri@gmail.com
 description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
@@ -107,9 +107,16 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
 
+# Default Settings for Pages and Posts
 defaults:
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -118,13 +125,8 @@ defaults:
       comments: true
       share: true
       related: true
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
