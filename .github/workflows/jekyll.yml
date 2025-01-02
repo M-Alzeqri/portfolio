@@ -4,7 +4,7 @@ name: Jekyll Site CI
 
 on:
   push:
-    branches: [ master ]       # Default branch set to 'master'
+    branches: [ master ]       # Ensure this matches your default branch
   pull_request:
     branches: [ master ]
 
@@ -25,7 +25,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'          # Specify Ruby version
+          ruby-version: '3.1'          # Specify Ruby version compatible with Jekyll 4.x
           bundler-cache: false         # We'll manage Bundler manually
 
       # Install Bundler 2.4.11
@@ -48,6 +48,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: master    # Deploy to 'gh-pages' branch
+          publish_branch: gh-pages    # Deploy to 'gh-pages' branch
           user_name: github-actions[bot]
           user_email: github-actions[bot]@users.noreply.github.com
