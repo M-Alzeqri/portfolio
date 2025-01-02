@@ -35,3 +35,15 @@ $$
 - Project 3
 - Project 4
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<div class="mini-section">
+  <img src="path-to-image" alt="Your Photo">
+  <h3>Mohammed Al-zeqri</h3>
+  <p>Devoted to crafting strategic solutions...</p>
+  <ul>
+    <li><a href="mailto:email@example.com">Email</a></li>
+    <li><a href="https://linkedin.com">LinkedIn</a></li>
+    <li><a href="https://github.com">GitHub</a></li>
+  </ul>
+</div>
+
