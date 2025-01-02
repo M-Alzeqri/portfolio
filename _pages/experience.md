@@ -1,7 +1,10 @@
 ---
+layout: single
 permalink: /experience/
 title: "Experience"
+sitemap: true
 ---
+
 # Work & Leadership Experience
 
 ## AI Quality Assurance Engineer (Freelance), Toronto, Virtual
