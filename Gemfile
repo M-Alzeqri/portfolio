@@ -13,6 +13,5 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
   gem "jemoji", "~> 0.16.0"
   gem "jekyll-include-cache", "~> 0.1.0"
-  # gem "jekyll-algolia", "~> 0.8.0" # Uncomment if using Algolia
   gem "jekyll-lunr-js-search", "~> 2.3"
 end
