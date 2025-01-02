@@ -9,7 +9,7 @@ gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Jekyll Core
-gem "jekyll", "~> 4.2.0"
+gem "jekyll", "~> 4.2.0" # Ensure Jekyll is version 4.x
 
 # Jekyll Plugins
 group :jekyll_plugins do
