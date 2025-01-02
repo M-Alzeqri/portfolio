@@ -1,14 +1,15 @@
 ---
 layout: single
-permalink: /math/linear-algebra/
-title: "Linear Algebra"
+permalink: /quant/
+title: "Quantitative Finance"
 sitemap: true
 ---
 
-## Linear Algebra
+## Quantitative Finance
 
-Delve into my projects and studies in Linear Algebra, covering vector spaces, matrix theory, eigenvalues and eigenvectors, linear transformations, and their applications in data analysis, machine learning, and more.
+Delve into the world of quantitative finance, where mathematics and data analysis drive strategic investment decisions. Below are my contributions in different areas:
 
-- [Project 1](#): Description of Linear Algebra Project 1.
-- [Project 2](#): Description of Linear Algebra Project 2.
-- [Tutorials](#): Detailed tutorials and resources on linear algebra concepts.
+- [Probability & Quantitative Finance](/quant/probability-quant-finance/)
+- [Black-Scholes Formula](/quant/black-scholes/)
+- [Derivatives](/quant/derivatives/)
+- [Main Topics](/quant/main-topics/)
