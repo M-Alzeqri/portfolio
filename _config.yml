@@ -27,58 +27,27 @@ minimal_mistakes_skin: contrast
 search: true
 lang: en
 
+# =============================================================================
+# URLs and Paths
+# =============================================================================
 
-# Kramdown Configuration for MathJax
-kramdown:
-  input: GFM
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  hard_wrap: false
+# If your site is hosted at https://your-username.github.io/portfolio/, set baseurl to "/portfolio"
+# If hosted at the root, leave it empty
+baseurl: "/portfolio"
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# Your GitHub Pages URL without the trailing slash
+url: "https://m-alzeqri.github.io" # Replace with your actual GitHub Pages URL
 
-# Pagination using jekyll-paginate-v2
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num/'
-  title: ':title - Page :num'
-  trail:
-    before: 2
-    after: 2
+# =============================================================================
+# Theme Configuration
+# =============================================================================
 
-# Output settings
-permalink: /:categories/:title/
-timezone: "America/Toronto"
+remote_theme: mmistakes/minimal-mistakes@v4.23.0 # Specify the theme and version
 
-include:
-  - _pages
+# =============================================================================
+# Plugins
+# =============================================================================
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/
-  - .github/
-  - .gitignore
-
-  
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
@@ -88,27 +57,49 @@ plugins:
   - jekyll-include-cache
   - jekyll-lunr-js-search # If using Lunr.js for search
 
+# =============================================================================
+# Kramdown Configuration for MathJax
+# =============================================================================
+
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# =============================================================================
+# Minimal Mistakes Configuration
+# =============================================================================
+
 minimal_mistakes:
   math:
     enabled: true
     engine: mathjax
     config: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-  
+
+# =============================================================================
+# Author Information
+# =============================================================================
+
 author:
-  name   : "Mohammed Al-zeqri"
-  avatar : "/assets/images/profile-pic.jpg"
-  bio    : "Devoted to crafting strategic solutions through the rigorous application of mathematical methodologies."
-  location : "Toronto, CA"
+  name: "Mohammed Al-zeqri"
+  avatar: "/assets/images/profile-pic.jpg" # Ensure this path is correct
+  bio: "Devoted to crafting strategic solutions through the rigorous application of mathematical methodologies."
+  location: "Toronto, CA"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://your-website.com" # Replace with your actual website
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/M-Alzeqri"
+
+# =============================================================================
+# Footer Links
+# =============================================================================
 
 footer:
   links:
@@ -117,7 +108,53 @@ footer:
       url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/M-Alzeqri/"
+
+# =============================================================================
+# Pagination Configuration
+# =============================================================================
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - Page :num'
+  trail:
+    before: 2
+    after: 2
+
+# =============================================================================
+# Permalink Structure
+# =============================================================================
+
+permalink: /:categories/:title/
+
+# =============================================================================
+# Timezone
+# =============================================================================
+
+timezone: "America/Toronto"
+
+# =============================================================================
+# Include and Exclude
+# =============================================================================
+
+# Files and directories to include in the build
+include:
+  - _pages
+
+# Files and directories to exclude from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .github/
+  - .gitignore
+
+# =============================================================================
+# Defaults
+# =============================================================================
 
 defaults:
   - scope:
@@ -137,14 +174,22 @@ defaults:
       share: true
       related: true
 
-# Custom stylesheets
+# =============================================================================
+# Assets Configuration
+# =============================================================================
+
 assets:
   css:
-    - /assets/css/custom.css
-  
+    - /assets/css/custom.css # Ensure this file exists and is correctly linked
+
+# =============================================================================
+# Archive Pages Configuration
+# =============================================================================
+
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
