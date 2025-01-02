@@ -17,10 +17,7 @@ title: Portfolio
 logo: "/assets/images/integral.png"
 subtitle: "Version 2.0"
 email: mohalzeqri@gmail.com 
-description: >- # this means to ignore newlines until "baseurl:"
-#  Write an awesome description for your new site here. You can edit this
-#  line in _config.yml. It will appear in your document head meta (for
-#  Google search results) and in your feed.xml site description.
+description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
 # twitter_username: username
