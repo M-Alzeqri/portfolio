@@ -63,3 +63,4 @@ This elegant relationship demonstrates the deep interconnectedness of mathematic
 - Project 2
 - Project 3
 - Project 4
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
