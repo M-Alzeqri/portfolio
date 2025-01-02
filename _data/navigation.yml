@@ -1,19 +1,23 @@
-main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
-  - title: "Mathematics"
-    url: /math/
-  - title: "CS"
-    url: /cs/
-  - title: "Quantitative Research"
-    url: /quant/
-  - title: "Education"
-    url: /ed/
-  - title: "Experience"
-    url: /experience/
+site:
+  name: "My Website"
+  description: "A site about mathematics and quantitative research."
+  navigation:
+    main:
+      - title: "Posts"
+        url: "/posts/"
+      - title: "Categories"
+        url: "/categories/"
+      - title: "Tags"
+        url: "/tags/"
+      - title: "About"
+        url: "/about/"
+      - title: "Mathematics"
+        url: "/math/"
+      - title: "CS"
+        url: "/cs/"
+      - title: "Quantitative Research"
+        url: "/quant/"
+      - title: "Education"
+        url: "/ed/"
+      - title: "Experience"
+        url: "/experience/"
