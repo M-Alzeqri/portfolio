@@ -1,12 +1,6 @@
-
 ---
 layout: default
 ---
-{% comment %}
-  single.html layout for individual pages or posts.
-  Includes hero sections, breadcrumbs, sidebar, main content, footer, social shares, comments, and related posts.
-{% endcomment %}
-
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -19,7 +13,7 @@ layout: default
   {% include breadcrumbs.html %}
 {% endif %}
 
-<div id="main" role="main" class="main-content">
+<div id="main" role="main" class="main-content container">
   {% include sidebar.html %}
   
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork" {% if page.locale %}lang="{{ page.locale }}"{% endif %}>
