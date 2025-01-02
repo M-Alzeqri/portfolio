@@ -11,7 +11,7 @@ sitemap: true
 **University of Toronto**, Toronto, ON  
 *Expected Sep 2025*
 
-- **Awards**: Hosinec Family Scholarships,  UTAPS
+- **Awards**: Hosinec Family Scholarships, UTAPS
 - **Relevant Coursework**: 
   - Multivariable Analysis
   - Linear Algebra
