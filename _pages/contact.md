@@ -11,7 +11,6 @@ Feel free to reach out through any of the platforms below or use the contact for
 
 ## Get in Touch
 
-
 - **LinkedIn:** [Mohammed Al-zeqri](https://www.linkedin.com/in/mohammed-al-zeqri/)
 - **GitHub:** [M-Alzeqri](https://github.com/M-Alzeqri)
 
