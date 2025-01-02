@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# Site settings
 title: Portfolio
 logo: "/assets/images/integral.png"
 subtitle: "Version 2.0"
-email: mohalzeqri@gmail.com 
+email: mohalzeqri@gmail.com
 description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
-# twitter_username: username
 github_username: M-Alzeqri
 minimal_mistakes_skin: contrast
 search: true
@@ -32,16 +33,23 @@ kramdown:
   syntax_highlighter: rouge
   hard_wrap: false
 
-  
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
-# Outputting
+# Pagination using jekyll-paginate-v2
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - Page :num'
+  trail:
+    before: 2
+    after: 2
+
+# Output settings
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: # Set your timezone, e.g., "America/Toronto"
 
 include:
   - _pages
@@ -60,7 +68,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -89,9 +97,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-   # - label: "Comment"
-   #   icon: "fab fa-fw fa-comment"
-   #   url: "https://instagram.com/"
 
 footer:
   links:
@@ -101,12 +106,8 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-   # - label: "Instagram"
-   #   icon: "fab fa-fw fa-instagram"
-   #   url: "https://instagram.com/"
 
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -117,7 +118,6 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -131,13 +131,3 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-
-# Add the new jekyll-paginate-v2 settings
-# pagination:
-# enabled: true
-#  per_page: 5
-#  permalink: '/page/:num/'
-#  title: ':title - Page :num'
-#  trail:
-#    before: 2
-#    after: 2
