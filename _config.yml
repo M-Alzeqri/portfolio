@@ -120,6 +120,12 @@ footer:
 defaults:
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -128,13 +134,8 @@ defaults:
       comments: true
       share: true
       related: true
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 
+  
 category_archive:
   type: liquid
   path: /categories/
