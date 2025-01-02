@@ -10,7 +10,7 @@ When I'm not unraveling the mysteries of $\( \mathbb{R}^n \)$ or navigating the 
 
 
 
-The quadratic formula is $x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+The quadratic formula is x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}.
 
 ## The Black-Scholes Formula
 
