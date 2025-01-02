@@ -49,7 +49,7 @@ pagination:
 
 # Output settings
 permalink: /:categories/:title/
-timezone: # Set your timezone, e.g., "America/Toronto"
+timezone: "America/Toronto" # Set your timezone, e.g., "America/Toronto"
 
 include:
   - _pages
