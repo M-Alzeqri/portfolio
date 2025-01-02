@@ -1,3 +1,7 @@
+---
+permalink: /ed/
+title: "Education"
+---
 # Education
 
 ## Honors Bachelor of Science in Mathematics
