@@ -135,6 +135,10 @@ defaults:
       share: true
       related: true
 
+# Custom stylesheets
+assets:
+  css:
+    - /assets/css/custom.css
   
 category_archive:
   type: liquid
