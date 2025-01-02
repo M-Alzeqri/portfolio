@@ -6,7 +6,7 @@ layout: single
 author_profile: true
 ---
 
-When I'm not unraveling the mysteries of **Rn** or dancing with **complex fields**, you'll find me turning intricate equations into elegant solutions. Passionate about harnessing the power of math to tackle the toughest puzzles, I thrive on transforming chaos into clarity. Ready to solve the unsolvable? Let’s crunch some numbers and prove the impossible possible!
+When I'm not unraveling the mysteries of **$ \mathbb{R}^n $** or dancing with **complex fields**, you'll find me turning intricate equations into elegant solutions. Passionate about harnessing the power of math to tackle the toughest puzzles, I thrive on transforming chaos into clarity. Ready to solve the unsolvable? Let’s crunch some numbers and prove the impossible possible!
 - Project 1
 - Project 2
 - Project 3
