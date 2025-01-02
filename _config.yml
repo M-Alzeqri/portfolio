@@ -35,7 +35,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: "America/Toronto"
+timezone: "America/Toronto" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -54,7 +54,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -77,9 +77,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Comment"
-      icon: "fab fa-fw fa-comment"
-      url: "https://instagram.com/"
+   # - label: "Comment"
+   #   icon: "fab fa-fw fa-comment"
+   #   url: "https://instagram.com/"
 
 footer:
   links:
