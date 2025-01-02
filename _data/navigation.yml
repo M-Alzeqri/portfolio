@@ -1,8 +1,4 @@
-site:
-  name: "My Website"
-  description: "A site about mathematics and quantitative research."
-  navigation:
-    main:
+main:
       - title: "Posts"
         url: "/posts/"
       - title: "Categories"
