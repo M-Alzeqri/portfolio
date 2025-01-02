@@ -15,106 +15,29 @@
 # in the templates via {{ site.myvariable }}.
 
 
-# _config.yml
+# Jekyll Configuration for Minimal Mistakes Theme v4.26.2
 
-# =============================================================================
-# Site Settings
-# =============================================================================
-
+# Site settings
 title: Portfolio
+logo: "/assets/images/integral.png"
 email: mohalzeqri@gmail.com
 description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
+github_username: M-Alzeqri
+remote_theme: mmistakes/minimal-mistakes@v4.26.2
+minimal_mistakes_skin: contrast
 lang: en
+search: true
 
-# =============================================================================
-# URLs and Paths
-# =============================================================================
-
-baseurl: "" # e.g., "/portfolio" or ""
-
-url: "https://your-username.github.io" # Replace with your actual GitHub Pages URL
-
-# =============================================================================
-# Theme Configuration
-# =============================================================================
-
-remote_theme: mmistakes/minimal-mistakes@v4.23.0 # Updated to a valid version
-
-# Remove or comment out any conflicting theme
-# theme: jekyll-theme-primer
-
-# =============================================================================
-# Plugins
-# =============================================================================
-
-plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-  - jekyll-lunr-js-search # If using Lunr.js for search
-
-# =============================================================================
 # Kramdown Configuration for MathJax
-# =============================================================================
-
 kramdown:
   input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
   hard_wrap: false
 
-# =============================================================================
-# Minimal Mistakes Configuration
-# =============================================================================
-
-minimal_mistakes:
-  math:
-    enabled: true
-    engine: mathjax
-    config: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-
-# =============================================================================
-# Author Information
-# =============================================================================
-
-author:
-  name: "Mohammed Al-zeqri"
-  avatar: "/assets/images/profile-pic.jpg" # Ensure this path is correct
-  bio: "Devoted to crafting strategic solutions through the rigorous application of mathematical methodologies."
-  location: "Toronto, CA"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://your-website.com" # Replace with your actual website
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/M-Alzeqri"
-
-# =============================================================================
-# Footer Links
-# =============================================================================
-
-footer:
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/M-Alzeqri/"
-
-# =============================================================================
-# Pagination Configuration
-# =============================================================================
-
+# Pagination using jekyll-paginate-v2
 pagination:
   enabled: true
   per_page: 5
@@ -124,25 +47,11 @@ pagination:
     before: 2
     after: 2
 
-# =============================================================================
-# Permalink Structure
-# =============================================================================
-
+# Output settings
 permalink: /:categories/:title/
-
-# =============================================================================
-# Timezone
-# =============================================================================
-
 timezone: "America/Toronto"
 
-# =============================================================================
-# Include and Exclude
-# =============================================================================
-
-include:
-  - _pages
-
+# Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -151,9 +60,51 @@ exclude:
   - .github/
   - .gitignore
 
-# =============================================================================
-# Defaults
-# =============================================================================
+# Plugins
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-lunr-js-search
+
+minimal_mistakes:
+  math:
+    enabled: true
+    engine: mathjax
+    config: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+# Author Information
+author:
+  name   : "Mohammed Al-zeqri"
+  avatar : "/assets/images/profile-pic.jpg"
+  bio    : "Devoted to crafting strategic solutions through the rigorous application of mathematical methodologies."
+  location : "Toronto, CA"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/M-Alzeqri"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/M-Alzeqri"
+
+# Include Pages
+include:
+  - _pages
 
 defaults:
   - scope:
@@ -173,22 +124,15 @@ defaults:
       share: true
       related: true
 
-# =============================================================================
-# Assets Configuration
-# =============================================================================
-
+# Custom stylesheets
 assets:
   css:
-    - /assets/css/custom.css # Ensure this file exists and is correctly linked
+    - /assets/css/custom.css
 
-# =============================================================================
-# Archive Pages Configuration
-# =============================================================================
-
+# Archive Pages
 category_archive:
   type: liquid
   path: /categories/
-
 tag_archive:
   type: liquid
   path: /tags/
