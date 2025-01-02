@@ -25,6 +25,8 @@ description: >-
 github_username: M-Alzeqri
 minimal_mistakes_skin: contrast
 search: true
+lang: en
+
 
 # Kramdown Configuration for MathJax
 kramdown:
