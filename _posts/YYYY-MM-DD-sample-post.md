@@ -1,28 +1,26 @@
 ---
-layout: single
 title: "Sample Post Title"
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [ category1, category2 ]
-tags: [ tag1, tag2, tag3 ]
+date: YYYY-MM-DD HH:MM:SS +0000
+categories: [Category1, Category2]
+tags: [Tag1, Tag2, Tag3]
+author: "Mohammed Al-zeqri"
 excerpt: "A brief summary of the post."
-image: "/assets/images/sample-image.jpg"
-sitemap: true
 ---
+    
+# Introduction
 
-## Introduction
+Your content goes here. You can use Markdown to format your text, include images, code snippets, and more.
 
-Your introduction goes here. Provide context and engage your readers.
+## Section Title
 
-## Main Content
+Detailed information about the section.
 
-Dive deep into the topic with detailed explanations, examples, and insights.
+### Subsection Title
 
-### Subheading
+Further details.
 
-Additional details under a subheading.
+$$
+E = mc^2
+$$
 
-## Conclusion
-
-Summarize the key points and provide closing thoughts.
-
----
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
