@@ -132,9 +132,12 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# Pagination Configuration for jekyll-paginate-v2
+# Add the new jekyll-paginate-v2 settings
 pagination:
   enabled: true
   per_page: 5
-  permalink: /page/:num/
-  title: "Posts by Page %d"
+  permalink: '/page/:num/'
+  title: ':title - Page :num'
+  trail:
+    before: 2
+    after: 2
