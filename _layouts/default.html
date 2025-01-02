@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en" }}">
 <head>
@@ -10,27 +9,23 @@
   <meta name="description" content="{{ site.description }}">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
+
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pHfL3ZlPppO8hj5JwKQOFfjL8bVQ0OYllS3jE3nO12e17aFx5I2XG8k0lGmIbYcvfQgP19v9E9jE/DQ1DFJScA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+
   <!-- MathJax -->
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  
-  {% if site.search %}
-    <!-- Add search scripts if needed -->
-  {% endif %}
 </head>
 <body>
   {% include header.html %}
-  
+
   <main id="content" class="site-content">
     {{ content }}
   </main>
-  
+
   {% include footer.html %}
-  
+
   <!-- Scripts -->
   <script src="{{ "/assets/js/main.js" | relative_url }}"></script>
 </body>
