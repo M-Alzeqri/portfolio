@@ -2,9 +2,14 @@ name: Jekyll Site CI
 
 on:
   push:
-    branches: [ main ]  # Ensure this matches your default branch
+    branches: [ master ]  # Keep this as 'master' since GitHub Pages is building from 'master'
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -32,3 +37,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          publish_branch: master  # Deploying to 'master' since GitHub Pages is building from 'master'
