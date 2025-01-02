@@ -1,3 +1,5 @@
+# _data/navigation.yml
+
 main:
   - title: "About"
     url: "/about/"
