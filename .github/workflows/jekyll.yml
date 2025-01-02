@@ -32,12 +32,12 @@ jobs:
       - name: Install Bundler 2.4.11
         run: gem install bundler -v 2.4.11
 
-      # Install dependencies
+      # Install dependencies using Bundler 2.4.11
       - name: Install dependencies
         run: |
           bundle _2.4.11_ install
 
-      # Build the Jekyll site
+      # Build the Jekyll site using Bundler 2.4.11
       - name: Build the site
         run: |
           bundle _2.4.11_ exec jekyll build
