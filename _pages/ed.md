@@ -1,14 +1,17 @@
 ---
+layout: single
 permalink: /ed/
 title: "Education"
+sitemap: true
 ---
+
 # Education
 
 ## Honors Bachelor of Science in Mathematics
 **University of Toronto**, Toronto, ON  
 *Expected Sep 2025*
 
-- **Awards**: Hosinec Family Scholarships, Accessibility Resilience Program Award, UTAPS
+- **Awards**: Hosinec Family Scholarships,  UTAPS
 - **Relevant Coursework**: 
   - Multivariable Analysis
   - Linear Algebra
