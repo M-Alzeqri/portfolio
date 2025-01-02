@@ -1,3 +1,7 @@
+---
+permalink: /experience/
+title: "Experience"
+---
 # Work & Leadership Experience
 
 ## AI Quality Assurance Engineer (Freelance), Toronto, Virtual
