@@ -25,96 +25,76 @@ description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
 github_username: M-Alzeqri
-remote_theme: mmistakes/minimal-mistakes@v4.26.2
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: contrast
 lang: en
 search: true
 
-# Kramdown Configuration for MathJax
-kramdown:
-  input: GFM
-  math_engine: mathjax
-  syntax_highlighter: rouge
-  hard_wrap: false
-
-# Pagination using jekyll-paginate-v2
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num/'
-  title: ':title - Page :num'
-  trail:
-    before: 2
-    after: 2
-
-# Output settings
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
 permalink: /:categories/:title/
-timezone: "America/Toronto"
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Toronto
 
-# Exclude files from processing
+include:
+  - _pages
+
+# Exclude from processing.
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/
-  - .github/
-  - .gitignore
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-# Plugins
+# Plugins (previously gems:)
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-lunr-js-search
 
-minimal_mistakes:
-  math:
-    enabled: true
-    engine: mathjax
-    config: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-
-# Author Information
 author:
   name   : "Mohammed Al-zeqri"
-  avatar : "/assets/images/profile-pic.jpg"
-  bio    : "Devoted to crafting strategic solutions through the rigorous application of mathematical methodologies."
-  location : "Toronto, CA"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/M-Alzeqri"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/mohammed-al-zeqri/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/M-Alzeqri"
-
-# Include Pages
-include:
-  - _pages
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 defaults:
+  # _posts
   - scope:
       path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  - scope:
-      path: "_posts"
       type: posts
     values:
       layout: single
@@ -123,13 +103,14 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
-# Custom stylesheets
-assets:
-  css:
-    - /assets/css/custom.css
-
-# Archive Pages
 category_archive:
   type: liquid
   path: /categories/
