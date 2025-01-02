@@ -17,7 +17,7 @@
 # Site settings
 title: Portfolio
 logo: "/assets/images/integral.png"
-subtitle: "Version 2.0"
+# subtitle: "Version 2.0"
 email: mohalzeqri@gmail.com
 description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
