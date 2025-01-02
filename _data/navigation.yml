@@ -7,3 +7,13 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+   - title: "Mathematics"
+    url: /math/
+  - title: "CS"
+    url: /cs/
+  - title: "Quantitative Research"
+    url: /quant/
+  - title: "Education"
+    url: /ed/
+  - title: "Experiance"
+    url: /experiance/
