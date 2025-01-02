@@ -1,4 +1,31 @@
-_site
-.sass-cache
-.jekyll-metadata
+# Jekyll-specific ignores
+_site/
+.sass-cache/
+.jekyll-metadata/
+vendor/
+.bundle/
+node_modules/
+
+# RubyGems
 Gemfile.lock
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+# IDE-specific ignores (e.g., VSCode)
+.vscode/
+*.code-workspace
+
+# GitHub Actions
+.github/workflows/*.yml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Other
+.env
