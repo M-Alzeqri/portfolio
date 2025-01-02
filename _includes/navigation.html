@@ -1,1 +1,15 @@
+<ul class="navigation">
+  {% for item in site.data.navigation.main %}
+    <li class="nav-item {% if item.submenu %}has-submenu{% endif %}">
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% if item.submenu %}
+        <ul class="submenu">
+          {% for sub in item.submenu %}
+            <li><a href="{{ sub.url | relative_url }}">{{ sub.title }}</a></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
