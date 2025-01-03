@@ -16,3 +16,4 @@ Explore various mathematical concepts, theories, and applications that underpin 
 - [Topology](/math/topology/)
 - [Geometry](/math/geometry/)
 - [Linear Algebra](/math/linear-algebra/)
+.
