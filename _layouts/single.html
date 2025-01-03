@@ -1,19 +1,20 @@
 ---
 layout: default
 ---
+{% comment %}
+  single.html layout for individual pages or posts.
+  Includes hero sections, breadcrumbs, sidebar, main content, footer, social shares, comments, and related posts.
+{% endcomment %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
-
 {% assign breadcrumbs_enabled = page.breadcrumbs | default: site.breadcrumbs %}
-
 {% if page.url != "/" and breadcrumbs_enabled and not paginator %}
   {% include breadcrumbs.html %}
 {% endif %}
-
-<div id="main" role="main" class="main-content container">
+<div id="main" role="main" class="main-content">
   {% include sidebar.html %}
   
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork" {% if page.locale %}lang="{{ page.locale }}"{% endif %}>
