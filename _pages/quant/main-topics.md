@@ -2,6 +2,7 @@
 layout: single
 permalink: /quant/main-topics/
 title: "Main Topics"
+layout: single
 sitemap: true
 ---
 # Bloomberg Market Concepts (BMC) Summary
