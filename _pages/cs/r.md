@@ -13,3 +13,4 @@ Explore my projects, notes, and contributions related to R programming. Topics i
 - [Project 2](#): Description of R Project 2.
 - [Notes](#): Detailed R notes and resources.
 
+.
