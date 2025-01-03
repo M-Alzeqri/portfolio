@@ -15,4 +15,4 @@ Welcome to the Computer Science section of my portfolio. Here, I delve into vari
 - [C#](/cs/csharp/)
 - [C++](/cs/cplusplus/)
 - [Other Topics](/cs/other/)
-.
+
