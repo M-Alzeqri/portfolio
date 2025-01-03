@@ -120,8 +120,11 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
+# GitHub Pages Deployment Settings
 - name: Deploy to GitHub Pages
   uses: peaceiris/actions-gh-pages@v4
   with:
+    github_token: ${{ secrets.GITHUB_TOKEN }}
+    publish_dir: ./_site
+    publish_branch: master
     disable_nojekyll: false
