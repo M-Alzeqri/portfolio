@@ -57,4 +57,4 @@ Founded and managed a trading venture to develop expertise in technical analysis
 *Sep 2021 – May 2022*
 
 - Led a team of seven Ambassadors in planning and executing events for first-year students, managing logistics, creating promotional materials, and ensuring successful participation from hundreds of students.
-- Recognized with a certificate of achievement for outstanding leadership and contributions to the program.
+- Recognized with a certificate of achievement for outstanding leadership and contributions to the program..
