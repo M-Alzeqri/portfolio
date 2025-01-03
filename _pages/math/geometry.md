@@ -12,3 +12,4 @@ Discover my work in Geometry, encompassing Euclidean and non-Euclidean geometrie
 - [Project 1](#): Description of Geometry Project 1.
 - [Project 2](#): Description of Geometry Project 2.
 - [Visualizations](#): Interactive visualizations and models demonstrating geometric principles.
+.
