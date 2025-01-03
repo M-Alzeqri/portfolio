@@ -14,3 +14,4 @@ Delve into the world of quantitative finance, where mathematics and data analysi
 - [Black-Scholes Formula](/quant/black-scholes/)
 - [Derivatives](/quant/derivatives/)
 - [Main Topics](/quant/main-topics/)
+.
