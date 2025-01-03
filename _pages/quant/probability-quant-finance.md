@@ -13,3 +13,4 @@ Explore the intersection of Probability Theory and Quantitative Finance, focusin
 - [Project 2](#): Description of Probability & Quantitative Finance Project 2.
 - [Research Papers](#): In-depth research papers and studies on probability models in finance.
 
+.
