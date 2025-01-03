@@ -78,7 +78,7 @@ author:
       url: "https://github.com/M-Alzeqri"
     - label: "Contact"
       icon: "fas fa-fw fa-envelope"
-      url: "/contact/"
+      url: "https://m-alzeqri.github.io/portfolio/contact/"
     - label: "Kaggle"
       icon: "fas fa-fw fa-chart-line"
       url: "https://www.kaggle.com/settings"
