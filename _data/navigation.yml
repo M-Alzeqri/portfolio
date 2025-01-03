@@ -1,5 +1,3 @@
-# _data/navigation.yml
-
 main:
   - title: "About"
     url: "/about/"
@@ -9,7 +7,7 @@ main:
     url: "/ed/"
   - title: "Mathematics"
     url: "/math/"
-    submenu:
+    children:
       - title: "Calculus"
         url: "/math/calculus/"
       - title: "Analysis"
@@ -26,7 +24,7 @@ main:
         url: "/math/linear-algebra/"
   - title: "Computer Science"
     url: "/cs/"
-    submenu:
+    children:
       - title: "R"
         url: "/cs/r/"
       - title: "Python"
@@ -41,7 +39,7 @@ main:
         url: "/cs/other/"
   - title: "Quantitative Finance"
     url: "/quant/"
-    submenu:
+    children:
       - title: "Probability & Quantitative Finance"
         url: "/quant/probability-quant-finance/"
       - title: "Black-Scholes Formula"
