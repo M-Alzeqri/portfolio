@@ -12,3 +12,4 @@ Delve into my work and projects related to Calculus, including differential and 
 - [Project 1](#): Description of Calculus Project 1.
 - [Project 2](#): Description of Calculus Project 2.
 - [Notes](#): Detailed calculus notes and resources.
+.
