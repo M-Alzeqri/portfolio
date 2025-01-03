@@ -13,3 +13,4 @@ Dive into my SQL projects, tutorials, and best practices. Topics include databas
 - [Project 2](#): Description of SQL Project 2.
 - [Tutorials](#): Comprehensive SQL tutorials and guides.
 
+.
