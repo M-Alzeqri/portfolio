@@ -2,6 +2,7 @@
 layout: single
 permalink: /quant/
 title: "Quantitative Finance"
+categories: [quant]
 sitemap: true
 ---
 
