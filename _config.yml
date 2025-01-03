@@ -25,7 +25,7 @@ description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
 github_username: M-Alzeqri
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: contrast
 search: true
 
@@ -52,7 +52,14 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -120,11 +127,3 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# GitHub Pages Deployment Settings
-- name: Deploy to GitHub Pages
-  uses: peaceiris/actions-gh-pages@v4
-  with:
-    github_token: ${{ secrets.GITHUB_TOKEN }}
-    publish_dir: ./_site
-    publish_branch: master
-    disable_nojekyll: false
