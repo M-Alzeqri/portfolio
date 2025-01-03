@@ -13,3 +13,4 @@ Discover my C# projects, code snippets, and development insights. Topics include
 - [Project 2](#): Description of C# Project 2.
 - [Code Snippets](#): Useful C# code snippets and examples.
 
+.
