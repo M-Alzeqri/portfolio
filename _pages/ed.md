@@ -48,4 +48,4 @@ sitemap: true
   *Wavemakers*, June 2022 – Jul 2022
   - **Project**: 
     - Collaborated with a team to research and analyze economic strategies aimed at eradicating poverty in underdeveloped regions.
-    - Formulated actionable recommendations, enhancing skills in research, data analysis, and economic planning.
+    - Formulated actionable recommendations, enhancing skills in research, data analysis, and economic planning..
