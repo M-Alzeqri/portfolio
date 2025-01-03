@@ -13,3 +13,4 @@ Explore my C++ projects, algorithms, and system programming endeavors. Topics in
 - [Project 2](#): Description of C++ Project 2.
 - [Algorithms](#): Detailed explanations of algorithms implemented in C++.
 
+.
