@@ -2,6 +2,7 @@
 layout: single
 permalink: /quant/main-topics/
 title: "Main Topics"
+categories: [quant]
 sitemap: true
 ---
 
