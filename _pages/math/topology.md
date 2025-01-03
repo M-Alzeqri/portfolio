@@ -12,3 +12,4 @@ Explore my research and projects in Topology, including point-set topology, alge
 - [Project 1](#): Description of Topology Project 1.
 - [Project 2](#): Description of Topology Project 2.
 - [Research Notes](#): Comprehensive notes and resources on topological concepts.
+.
