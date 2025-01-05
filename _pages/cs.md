@@ -9,14 +9,10 @@ sitemap: true
 
 Welcome to the Computer Science section of my portfolio. Here, I delve into various topics related to algorithms, data structures, software development, and more. Below are my contributions in different areas:
 
-- [R](/cs/r/)
-- [Python](/cs/python/)
-- [SQL](/cs/sql/)
-- [C#](/cs/csharp/)
-- [C++](/cs/cplusplus/)
-- [Other Topics](/cs/other/)
 
-
-[Learn more about C++](/portfolio/cs/cplusplus/)
-[Learn more about C++]({{ "/cs/cplusplus/" | relative_url }})
-
+- [R](/portfolio/cs/r/)
+- [Python](/portfolio/cs/python/)
+- [SQL](/portfolio/cs/sql/)
+- [C#](/portfolio/cs/csharp/)
+- [C++](/portfolio/cs/cplusplus/)
+- [Other Topics](/portfolio/cs/other/)
