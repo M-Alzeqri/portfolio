@@ -56,4 +56,6 @@ main:
     url: "/categories/"
   - title: "Tags"
     url: "/tags/"
+  - title: "C++"
+    url: "/cs/cplusplus/"
 
