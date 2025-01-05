@@ -14,20 +14,24 @@ sitemap: true
 - **Awards**: Hosinec Family Scholarships, UTAPS
 - **Relevant Coursework**: 
   - [Single/Multivariable Analysis](/portfolio/math/calculus/)
-  - [Real Analysis](/portfolio/math/analysis/)
   - [Linear Algebra](/portfolio/math/linear-algebra/)
   - [Probability](/portfolio/math/probability/)
-  - Statistics
-  - Algorithms
-  - Numerical Methods
-  - Micro & Macro Economics
-  - Computer Science
+  - [Statistics ](/portfolio/math/statistics/)
+  - [Real Analysis](/portfolio/math/analysis/)
   - [Topology](/portfolio/math/topology/)
   - [Differential Equations](/portfolio/math/differential-equations/)
   - [Differential Geometry](/portfolio/math/geometry/)
+  - [Computer Science](/portfolio/_pages/cs/)
+  - Algorithms
+  - Numerical Methods
+  - Micro & Macro Economics
+  - Investment & Credit
+  - Financial Derivatives
+- **Advanced Studies**:
+  - [Reading in Measure Theory](/portfolio/math/reading-in-measure-theory/) 
+
 - **Project**: 
   - Simulated data for 70,000 bike shares using Python, utilizing libraries such as NumPy and Matplotlib to analyze and visualize results
-  - [Reading in Measure Theory](/portfolio/math/reading-in-measure-theory/)
    
   
 ## Accounting and Finance Degree Credit (One Year of Study)
@@ -42,6 +46,9 @@ sitemap: true
 
 # Certifications & Training
 
+- **Bloomberg Market Concepts (BMC)**
+  *Bloomberg*, Jan 2025
+  
 - **Python**  
   *Kaggle*, Aug 2022
 
