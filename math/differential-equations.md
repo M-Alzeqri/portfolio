@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /math/differential-equations/
+permalink: /differential-equations/
 title: "Differential Equations"
 sitemap: true
 ---
