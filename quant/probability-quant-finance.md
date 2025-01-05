@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /quant/probability-quant-finance/
+permalink: /probability-quant-finance/
 title: "Probability & Quantitative Finance"
 sitemap: true
 ---
