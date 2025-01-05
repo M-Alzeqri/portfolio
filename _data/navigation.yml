@@ -9,7 +9,7 @@ main:
     url: "/math/"
     children:
       - title: "Calculus"
-        url: "/math/calculus/"
+        url: "_pages/math/calculus/"
       - title: "Analysis"
         url: "/math/analysis/"
       - title: "Probability"
