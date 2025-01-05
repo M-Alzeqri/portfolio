@@ -16,3 +16,4 @@ Welcome to the Computer Science section of my portfolio. Here, I delve into vari
 - [C++](/cs/cplusplus/)
 - [Other Topics](/cs/other/)
 
+[Learn more about C++]({% link cs/cplusplus.md %})
