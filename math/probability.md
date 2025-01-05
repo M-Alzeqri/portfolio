@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /math/probability/
+permalink: /probability/
 title: "Probability"
 sitemap: true
 ---
