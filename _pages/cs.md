@@ -17,3 +17,9 @@ Welcome to the Computer Science section of my portfolio. Here, I delve into vari
 - [C++](/portfolio/cs/cplusplus/)
 - [Other Topics](/portfolio/cs/other/)
 - [C++](/portfolio/_pages/cs/cplusplus/)
+- [Learn more about XC]({{ site.baseurl }}{% link _pages/cs/xc.md %})
+- [Learn more about XC]({{ "/xc/" | relative_url }})
+- <a href="/portfolio/xc/">Learn more about XC</a>
+- [Learn more about XC]({{ site.baseurl }}{% link _pages/cs/xc.md %})
+- [Learn more about XC]({{ site.baseurl }}/xc/)
+
