@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /cs/cplusplus/
+permalink: /cplusplus/
 title: "C++"
 sitemap: true
 ---
