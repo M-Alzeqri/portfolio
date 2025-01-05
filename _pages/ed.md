@@ -13,18 +13,18 @@ sitemap: true
 
 - **Awards**: Hosinec Family Scholarships, UTAPS
 - **Relevant Coursework**: 
-  - Single/Multivariable Analysis(/portfolio/math/calculus/)
-  - Real Analysis(/portfolio/math/analysis/)
-  - Linear Algebra(/portfolio/math/linear-algebra/)
-  - Probability(/portfolio/math/probability/)
+  - [Single/Multivariable Analysis](/portfolio/math/calculus/)
+  - [Real Analysis](/portfolio/math/analysis/)
+  - [Linear Algebra](/portfolio/math/linear-algebra/)
+  - [Probability](/portfolio/math/probability/)
   - Statistics
   - Algorithms
   - Numerical Methods
   - Micro & Macro Economics
   - Computer Science
-  - Topology(/portfolio/math/topology/)
-  - Differential Equations(/portfolio/math/differential-equations/)
-  - Differential Geometry(/portfolio/math/geometry/)
+  - [Topology](/portfolio/math/topology/)
+  - [Differential Equations](/portfolio/math/differential-equations/)
+  - [Differential Geometry](/portfolio/math/geometry/)
 - **Project**: 
   - Simulated data for 70,000 bike shares using Python, utilizing libraries such as NumPy and Matplotlib to analyze and visualize results
   - [Reading in Measure Theory](/portfolio/math/reading-in-measure-theory/)
