@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /math/linear-algebra/
+permalink: /linear-algebra/
 title: "Linear Algebra"
 sitemap: true
 ---
