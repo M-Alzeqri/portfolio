@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /math/calculus/
+permalink: /calculus/
 title: "Calculus"
 sitemap: true
 ---
