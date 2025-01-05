@@ -7,7 +7,7 @@ sitemap: true
 
 ## Computer Science
 
-Welcome to the Computer Science section of my portfolio. Here, I delve into various topics related to algorithms, data structures, software development, and more. Below are my contributions in different areas:
+Welcome to the Computer Science section of my portfolio. Here, I share my notes and contributions into various topics related to programing, data structures, software development, and more. Below are my contributions in different areas:
 
 
 - [R](/portfolio/cs/r/)
