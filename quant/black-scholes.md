@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /quant/black-scholes/
+permalink: /black-scholes/
 title: "Black-Scholes Formula"
 sitemap: true
 ---
