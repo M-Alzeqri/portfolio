@@ -19,6 +19,7 @@
 
 # Site settings
 title: Portfolio
+baseurl: "/portfolio" # Add this line
 logo: "/assets/images/integral.png"
 email: mohalzeqri@gmail.com
 description: >-
