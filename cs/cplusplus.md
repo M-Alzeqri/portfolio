@@ -1,8 +1,7 @@
 ---
 layout: single
-permalink: /cplusplus/
+categories: cs
 title: "C++"
-sitemap: true
 ---
 
 ## C++
