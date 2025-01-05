@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /math/topology/
+permalink: /topology/
 title: "Topology"
 sitemap: true
 ---
