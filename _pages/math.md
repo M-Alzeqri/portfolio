@@ -7,13 +7,18 @@ sitemap: true
 
 ## Mathematics
 
-Explore various mathematical concepts, theories, and applications that underpin my work in quantitative research and AI development. Below are my contributions in different areas:
+Explore various mathematical concepts, theories, and applications that underpin my sudies in Mathematics. Below are my contributions in different areas:
 
-- [Calculus](/portfolio/math/calculus/)
-- [Analysis](/portfolio/math/analysis/)
-- [Probability](/portfolio/math/probability/)
-- [Differential Equations](/portfolio/math/differential-equations/)
-- [Topology](/portfolio/math/topology/)
-- [Geometry](/portfolio/math/geometry/)
-- [Linear Algebra](/portfolio/math/linear-algebra/)
-- [Reading in Measure Theory](/portfolio/math/reading-in-measure-theory/)
+
+  - [Single/Multivariable Analysis](/portfolio/math/calculus/)
+  - [Linear Algebra](/portfolio/math/linear-algebra/)
+  - [Probability](/portfolio/math/probability/)
+  - [Statistics ](/portfolio/math/statistics/)
+  - [Real Analysis](/portfolio/math/analysis/)
+  - [Topology](/portfolio/math/topology/)
+  - [Differential Equations](/portfolio/math/differential-equations/)
+  - [Differential Geometry](/portfolio/math/geometry/)
+  - [Computer Science](/portfolio/_pages/cs/)
+ 
+- **Advanced Studies**:
+  - [Reading in Measure Theory](/portfolio/math/reading-in-measure-theory/) 
