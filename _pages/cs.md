@@ -18,3 +18,6 @@ Welcome to the Computer Science section of my portfolio. Here, I delve into vari
 
 [Learn more about C++]({% link cs/cplusplus.md %})
 <a href="/portfolio/cs/cplusplus.html">Learn more about C++</a>
+[Learn more about C++](/portfolio/cs/cplusplus/)
+[Learn more about C++]({{ "/cs/cplusplus/" | relative_url }})
+[Learn more about C++]({% link cs/cplusplus.md %})
