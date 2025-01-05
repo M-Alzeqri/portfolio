@@ -1,8 +1,7 @@
 ---
 layout: single
-permalink: /quant/main-topics/
+permalink: /main-topics/
 title: "Main Topics"
-categories: [quant]
 sitemap: true
 ---
 
