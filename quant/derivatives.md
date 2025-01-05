@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /quant/derivatives/
+permalink: /derivatives/
 title: "Derivatives"
 sitemap: true
 ---
