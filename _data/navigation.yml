@@ -6,7 +6,7 @@ main:
   - title: "Education"
     url: "/ed/"
   - title: "Mathematics"
-    url: "/math/"
+    url: "portfolio/math/"
     children:
       - title: "Calculus"
         url: "/math/calculus/"
@@ -23,7 +23,7 @@ main:
       - title: "Linear Algebra"
         url: "/math/linear-algebra/"
   - title: "Computer Science"
-    url: "/cs/"
+    url: "/portfolio/cs/"
     children:
       - title: "R"
         url: "/cs/r/"
