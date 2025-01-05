@@ -24,8 +24,7 @@ email: mohalzeqri@gmail.com
 description: >-
   Dedicated to showcasing my expertise in mathematics, computer science, and quantitative research. 
   Explore projects, experience, and insights into solving complex problems through mathematical methodologies.
-baseurl: "/portfolio" # The subpath of your site
-url: "https://m-alzeqri.github.io" # The base hostname & protocol for your site
+
 github_username: M-Alzeqri
 minimal_mistakes_skin: contrast
 search: true
