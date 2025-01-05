@@ -13,19 +13,23 @@ sitemap: true
 
 - **Awards**: Hosinec Family Scholarships, UTAPS
 - **Relevant Coursework**: 
-  - Multivariable Analysis
-  - Linear Algebra
-  - Probability
+  - Single/Multivariable Analysis(/portfolio/math/calculus/)
+  - Real Analysis(/portfolio/math/analysis/)
+  - Linear Algebra(/portfolio/math/linear-algebra/)
+  - Probability(/portfolio/math/probability/)
   - Statistics
   - Algorithms
   - Numerical Methods
   - Micro & Macro Economics
   - Computer Science
-  - Topology
-  - Differential Equations
+  - Topology(/portfolio/math/topology/)
+  - Differential Equations(/portfolio/math/differential-equations/)
+  - Differential Geometry(/portfolio/math/geometry/)
 - **Project**: 
   - Simulated data for 70,000 bike shares using Python, utilizing libraries such as NumPy and Matplotlib to analyze and visualize results
-
+  - [Reading in Measure Theory](/portfolio/math/reading-in-measure-theory/)
+   
+  
 ## Accounting and Finance Degree Credit (One Year of Study)
 **Toronto Metropolitan University**, Toronto, ON  
 *Sep 2020 – May 2021*
