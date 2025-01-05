@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /math/geometry/
+permalink: /geometry/
 title: "Geometry"
 sitemap: true
 ---
