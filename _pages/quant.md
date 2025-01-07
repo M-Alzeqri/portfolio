@@ -10,6 +10,7 @@ sitemap: true
 Delve into the world of quantitative finance, where mathematics, statistics, computer science, and data science drive strategic investment decisions. Below are my contributions in different areas:
 
 
+- [Probability Distributions in Quantitative Finance](/portfolio/quant/probability-distributions/)
 - [Probability & Quantitative Finance](/portfolio/quant/probability-quant-finance/)
 - [Black-Scholes Formula](/portfolio/quant/black-scholes/)
 - [Derivatives](/portfolio/quant/derivatives/)
