@@ -7,6 +7,12 @@ sitemap: true
 ---
 
 
+<!-- MathJax Configuration -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 # Probability Distributions in Quantitative Finance
 
 Quantitative finance relies on various probability distributions to model asset prices, returns, risk, and other financial metrics. Below are some of the most commonly used distributions:
@@ -24,8 +30,8 @@ f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{ -\frac{(x - \mu)^2}{2\sigma^2} }
 $$
 
 - **Parameters:**
-  - \( \mu \): Mean
-  - \( \sigma \): Standard deviation
+  - `μ`: Mean
+  - `σ`: Standard deviation
 - **Usage:** Modeling asset returns, errors in financial models.
 
 ---
@@ -41,8 +47,8 @@ f(x) = \frac{1}{x \sigma \sqrt{2\pi}} e^{ -\frac{(\ln x - \mu)^2}{2\sigma^2} }, 
 $$
 
 - **Parameters:**
-  - \( \mu \): Mean of the natural logarithm of the variable
-  - \( \sigma \): Standard deviation of the natural logarithm of the variable
+  - `μ`: Mean of the natural logarithm of the variable
+  - `σ`: Standard deviation of the natural logarithm of the variable
 - **Usage:** Modeling stock prices, asset prices in the Black-Scholes model.
 
 ---
@@ -58,7 +64,7 @@ f(x) = \frac{\Gamma\left(\frac{\nu + 1}{2}\right)}{\sqrt{\nu \pi} \, \Gamma\left
 $$
 
 - **Parameters:**
-  - \( \nu \): Degrees of freedom
+  - `ν`: Degrees of freedom
 - **Usage:** Modeling asset returns with higher kurtosis, risk management.
 
 ---
@@ -74,7 +80,7 @@ f(x) = \lambda e^{-\lambda x}, \quad x \geq 0
 $$
 
 - **Parameters:**
-  - \( \lambda \): Rate parameter
+  - `λ`: Rate parameter
 - **Usage:** Modeling time to default, time between trades.
 
 ---
@@ -90,7 +96,7 @@ P(k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \dots
 $$
 
 - **Parameters:**
-  - \( \lambda \): Average rate of occurrence
+  - `λ`: Average rate of occurrence
 - **Usage:** Modeling number of trades, defaults in a portfolio.
 
 ---
@@ -106,8 +112,8 @@ P(k) = \binom{n}{k} p^k (1-p)^{n-k}
 $$
 
 - **Parameters:**
-  - \( n \): Number of trials
-  - \( p \): Probability of success
+  - `n`: Number of trials
+  - `p`: Probability of success
 - **Usage:** Option pricing, modeling binary outcomes.
 
 ---
@@ -123,8 +129,8 @@ f(x) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}, \quad x 
 $$
 
 - **Parameters:**
-  - \( \alpha \): Shape parameter
-  - \( \beta \): Rate parameter
+  - `α`: Shape parameter
+  - `β`: Rate parameter
 - **Usage:** Modeling waiting times, insurance claims.
 
 ---
@@ -140,8 +146,8 @@ f(x) = \frac{k}{\lambda} \left(\frac{x}{\lambda}\right)^{k-1} e^{-\left(\frac{x}
 $$
 
 - **Parameters:**
-  - \( k \): Shape parameter
-  - \( \lambda \): Scale parameter
+  - `k`: Shape parameter
+  - `λ`: Scale parameter
 - **Usage:** Risk assessment, survival analysis in finance.
 
 ---
@@ -157,7 +163,7 @@ f(x) = \frac{x^{\alpha - 1} (1 - x)^{\beta - 1}}{B(\alpha, \beta)}, \quad 0 \leq
 $$
 
 - **Parameters:**
-  - \( \alpha, \beta \): Shape parameters
+  - `α, β`: Shape parameters
 - **Usage:** Modeling probabilities, portfolio weights.
 
 ---
@@ -173,8 +179,8 @@ f(x) = \frac{1}{\pi \gamma \left[ 1 + \left( \frac{x - x_0}{\gamma} \right)^2 \r
 $$
 
 - **Parameters:**
-  - \( x_0 \): Location parameter
-  - \( \gamma \): Scale parameter
+  - `x₀`: Location parameter
+  - `γ`: Scale parameter
 - **Usage:** Modeling asset returns with extreme movements.
 
 ---
@@ -190,8 +196,8 @@ f(x) = \frac{\alpha x_m^\alpha}{x^{\alpha + 1}}, \quad x \geq x_m
 $$
 
 - **Parameters:**
-  - \( \alpha \): Shape parameter
-  - \( x_m \): Minimum value
+  - `α`: Shape parameter
+  - `xₘ`: Minimum value
 - **Usage:** Modeling large losses, risk of extreme events.
 
 ---
@@ -207,7 +213,7 @@ f(x) = \sqrt{\frac{c}{2\pi}} \frac{e^{-\frac{c}{2x}}}{x^{3/2}}, \quad x > 0
 $$
 
 - **Parameters:**
-  - \( c \): Scale parameter
+  - `c`: Scale parameter
 - **Usage:** Modeling stock price movements, option pricing.
 
 ---
@@ -225,7 +231,7 @@ f(x) = 2 \phi(x) \Phi(\alpha x)
 $$
 
 - **Parameters:**
-  - \( \alpha \): Skewness parameter
+  - `α`: Skewness parameter
 - **Usage:** Modeling asymmetric returns.
 
 ### Skew-t Distribution
@@ -239,8 +245,8 @@ f(x) = \frac{2 \, t_\nu(x) \, T\left( \lambda x \sqrt{\frac{\nu+1}{\nu + x^2}} \
 $$
 
 - **Parameters:**
-  - \( \nu \): Degrees of freedom
-  - \( \lambda \): Skewness parameter
+  - `ν`: Degrees of freedom
+  - `λ`: Skewness parameter
 - **Usage:** Enhanced modeling of asymmetrical and heavy-tailed data.
 
 ---
@@ -259,10 +265,7 @@ $$
 ---
 
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+
 
 
 
