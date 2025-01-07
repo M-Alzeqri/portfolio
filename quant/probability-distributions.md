@@ -27,6 +27,14 @@ $$
   - $\sigma$: Standard deviation
 - **Usage:** Modeling asset returns, errors in financial models.
 
+**Formula:**
+
+f(x) = (1 / (σ * sqrt(2π))) * e^(-((x - μ)^2) / (2σ^2))
+
+- **Parameters:**
+  - μ: Mean
+  - σ: Standard deviation
+- **Usage:** Modeling asset returns, errors in financial models.
 ---
 
 ## 2. Log-Normal Distribution
@@ -256,5 +264,10 @@ $$
 - [Help and Support](https://github.com/contact)
 
 ---
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
 
 *This page was generated using ChatGPT.*
