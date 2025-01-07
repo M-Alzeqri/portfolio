@@ -1,12 +1,4 @@
 
----
-layout: single
-permalink: /probability-distributions/
-title: "Probability Distributions in Quantitative Finance"
-sitemap: true
----
-
-
 
 
 <!-- MathJax Configuration -->
