@@ -1,5 +1,8 @@
+---
+layout: single
+title: "Your Page Title"
 classes: wide
-
+---
 
 
 <!-- MathJax Configuration -->
