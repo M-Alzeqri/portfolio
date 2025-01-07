@@ -151,3 +151,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+sass:
+  style: compressed # Compresses the CSS output to reduce file size
+  load_paths:
+    - assets/css
