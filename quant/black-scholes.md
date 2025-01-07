@@ -1,8 +1,6 @@
 ---
 layout: single
-permalink: /black-scholes/
-title: "Black-Scholes Formula"
-sitemap: true
+classes: wide
 ---
 
 ## Black-Scholes Formula
