@@ -16,13 +16,13 @@ Quantitative finance relies on various probability distributions to model asset 
 
 The **Normal Distribution** is symmetric and describes data that clusters around a mean.
 
-$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{ -\frac{(x - \mu)^2}{2\sigma^2} }
-$$
+**Formula:**
+
+f(x) = (1) / (σ &radic;(2π)) × e<sup>-((x - μ)<sup>2</sup> / (2σ<sup>2</sup>))</sup>
 
 - **Parameters:**
-  - $\mu$: Mean
-  - $\sigma$: Standard deviation
+  - μ: Mean
+  - σ: Standard deviation
 - **Usage:** Modeling asset returns, errors in financial models.
 
 ---
@@ -31,13 +31,13 @@ $$
 
 The **Log-Normal Distribution** models variables that are positively skewed, such as stock prices.
 
-$$
-f(x) = \frac{1}{x \sigma \sqrt{2\pi}} e^{ -\frac{(\ln x - \mu)^2}{2\sigma^2} }, \quad x > 0
-$$
+**Formula:**
+
+f(x) = (1) / (xσ &radic;(2π)) × e<sup>-((ln x - μ)<sup>2</sup> / (2σ<sup>2</sup>))</sup>, &nbsp;&nbsp;x > 0
 
 - **Parameters:**
-  - $\mu$: Mean of the natural logarithm of the variable
-  - $\sigma$: Standard deviation of the natural logarithm of the variable
+  - μ: Mean of the natural logarithm of the variable
+  - σ: Standard deviation of the natural logarithm of the variable
 - **Usage:** Modeling stock prices, asset prices in the Black-Scholes model.
 
 ---
@@ -46,12 +46,12 @@ $$
 
 The **Student's t-Distribution** is similar to the normal distribution but has heavier tails, allowing for better modeling of extreme events.
 
-$$
-f(x) = \frac{\Gamma\left(\frac{\nu + 1}{2}\right)}{\sqrt{\nu \pi} \, \Gamma\left(\frac{\nu}{2}\right)} \left(1 + \frac{x^2}{\nu}\right)^{-\frac{\nu + 1}{2}}
-$$
+**Formula:**
+
+f(x) = [Γ((ν + 1)/2)] / [√(νπ) × Γ(ν/2)] × (1 + (x<sup>2</sup>/ν))<sup>-(ν + 1)/2</sup>
 
 - **Parameters:**
-  - $\nu$: Degrees of freedom
+  - ν: Degrees of freedom
 - **Usage:** Modeling asset returns with higher kurtosis, risk management.
 
 ---
@@ -60,12 +60,12 @@ $$
 
 The **Exponential Distribution** models the time between events in a Poisson process.
 
-$$
-f(x) = \lambda e^{-\lambda x}, \quad x \geq 0
-$$
+**Formula:**
+
+f(x) = λ × e<sup>-λx</sup>, &nbsp;&nbsp;x ≥ 0
 
 - **Parameters:**
-  - $\lambda$: Rate parameter
+  - λ: Rate parameter
 - **Usage:** Modeling time to default, time between trades.
 
 ---
@@ -74,12 +74,12 @@ $$
 
 The **Poisson Distribution** models the number of events occurring within a fixed interval of time or space.
 
-$$
-P(k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \dots
-$$
+**Formula:**
+
+P(k) = (λ<sup>k</sup> × e<sup>-λ</sup>) / k!, &nbsp;&nbsp;k = 0, 1, 2, …
 
 - **Parameters:**
-  - $\lambda$: Average rate of occurrence
+  - λ: Average rate of occurrence
 - **Usage:** Modeling number of trades, defaults in a portfolio.
 
 ---
@@ -88,13 +88,13 @@ $$
 
 The **Binomial Distribution** models the number of successes in a fixed number of independent Bernoulli trials.
 
-$$
-P(k) = \binom{n}{k} p^k (1-p)^{n-k}
-$$
+**Formula:**
+
+P(k) = (n choose k) × p<sup>k</sup> × (1 - p)<sup>n - k</sup>
 
 - **Parameters:**
-  - $n$: Number of trials
-  - $p$: Probability of success
+  - n: Number of trials
+  - p: Probability of success
 - **Usage:** Option pricing, modeling binary outcomes.
 
 ---
@@ -103,13 +103,13 @@ $$
 
 The **Gamma Distribution** is flexible and can model skewed data, useful for various financial applications.
 
-$$
-f(x) = \frac{\beta^\alpha}{\Gamma(\alpha)} x^{\alpha - 1} e^{-\beta x}, \quad x \geq 0
-$$
+**Formula:**
+
+f(x) = (β<sup>α</sup> / Γ(α)) × x<sup>α - 1</sup> × e<sup>-βx</sup>, &nbsp;&nbsp;x ≥ 0
 
 - **Parameters:**
-  - $\alpha$: Shape parameter
-  - $\beta$: Rate parameter
+  - α: Shape parameter
+  - β: Rate parameter
 - **Usage:** Modeling waiting times, insurance claims.
 
 ---
@@ -118,13 +118,13 @@ $$
 
 The **Weibull Distribution** is used to model the time until a failure or event, similar to the exponential distribution but with more flexibility.
 
-$$
-f(x) = \frac{k}{\lambda} \left(\frac{x}{\lambda}\right)^{k-1} e^{-(x/\lambda)^k}, \quad x \geq 0
-$$
+**Formula:**
+
+f(x) = (k / λ) × (x / λ)<sup>k - 1</sup> × e<sup>-(x/λ)<sup>k</sup></sup>, &nbsp;&nbsp;x ≥ 0
 
 - **Parameters:**
-  - $k$: Shape parameter
-  - $\lambda$: Scale parameter
+  - k: Shape parameter
+  - λ: Scale parameter
 - **Usage:** Risk assessment, survival analysis in finance.
 
 ---
@@ -133,12 +133,12 @@ $$
 
 The **Beta Distribution** is defined on the interval [0, 1] and is useful for modeling random variables limited to this range.
 
-$$
-f(x) = \frac{x^{\alpha - 1} (1 - x)^{\beta - 1}}{B(\alpha, \beta)}, \quad 0 \leq x \leq 1
-$$
+**Formula:**
+
+f(x) = (x<sup>α - 1</sup> × (1 - x)<sup>β - 1</sup>) / B(α, β), &nbsp;&nbsp;0 ≤ x ≤ 1
 
 - **Parameters:**
-  - $\alpha, \beta$: Shape parameters
+  - α, β: Shape parameters
 - **Usage:** Modeling probabilities, portfolio weights.
 
 ---
@@ -147,13 +147,13 @@ $$
 
 The **Cauchy Distribution** has heavier tails than the normal distribution, making it useful for modeling extreme financial events.
 
-$$
-f(x) = \frac{1}{\pi \gamma \left[ 1 + \left( \frac{x - x_0}{\gamma} \right)^2 \right]}
-$$
+**Formula:**
+
+f(x) = 1 / [πγ(1 + ((x - x₀)/γ)<sup>2</sup>)]
 
 - **Parameters:**
-  - $x_0$: Location parameter
-  - $\gamma$: Scale parameter
+  - x₀: Location parameter
+  - γ: Scale parameter
 - **Usage:** Modeling asset returns with extreme movements.
 
 ---
@@ -162,13 +162,13 @@ $$
 
 The **Pareto Distribution** is used to model heavy-tailed phenomena, such as wealth distribution or large insurance claims.
 
-$$
-f(x) = \frac{\alpha x_m^\alpha}{x^{\alpha + 1}}, \quad x \geq x_m
-$$
+**Formula:**
+
+f(x) = (αxₘ<sup>α</sup>) / x<sup>α + 1</sup>, &nbsp;&nbsp;x ≥ xₘ
 
 - **Parameters:**
-  - $\alpha$: Shape parameter
-  - $x_m$: Minimum value
+  - α: Shape parameter
+  - xₘ: Minimum value
 - **Usage:** Modeling large losses, risk of extreme events.
 
 ---
@@ -177,12 +177,12 @@ $$
 
 The **Levy Distribution** is a heavy-tailed distribution used in various financial models, particularly in the context of stochastic processes.
 
-$$
-f(x) = \sqrt{\frac{c}{2\pi}} \frac{e^{-\frac{c}{2x}}}{x^{3/2}}, \quad x > 0
-$$
+**Formula:**
+
+f(x) = √(c / (2π)) × e<sup>-c/(2x)</sup> / x<sup>3/2</sup>, &nbsp;&nbsp;x > 0
 
 - **Parameters:**
-  - $c$: Scale parameter
+  - c: Scale parameter
 - **Usage:** Modeling stock price movements, option pricing.
 
 ---
@@ -193,25 +193,25 @@ Many financial variables exhibit skewness. Skewed distributions like the **Skew-
 
 ### Skew-Normal Distribution
 
-$$
-f(x) = 2 \phi(x) \Phi(\alpha x)
-$$
+**Formula:**
+
+f(x) = 2 × φ(x) × Φ(αx)
 
 - **Parameters:**
-  - $\alpha$: Skewness parameter
+  - α: Skewness parameter
 - **Usage:** Modeling asymmetric returns.
 
 ### Skew-t Distribution
 
 Extends the Student's t-distribution to allow for skewness.
 
-$$
-f(x) = \frac{2 t_\nu(x) T\left( \lambda x \sqrt{\frac{\nu+1}{\nu + x^2}} \right)}{\text{scale}}
-$$
+**Formula:**
+
+f(x) = [2 × t<sub>ν</sub>(x) × T(λx √((ν + 1)/(ν + x<sup>2</sup>)))] / scale
 
 - **Parameters:**
-  - $\nu$: Degrees of freedom
-  - $\lambda$: Skewness parameter
+  - ν: Degrees of freedom
+  - λ: Skewness parameter
 - **Usage:** Enhanced modeling of asymmetrical and heavy-tailed data.
 
 ---
@@ -225,4 +225,3 @@ $$
 ---
 
 *This page was generated using ChatGPT.*
-
