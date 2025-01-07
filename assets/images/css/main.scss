@@ -1,0 +1,13 @@
+---
+# This file should have YAML front matter so Jekyll processes it.
+---
+
+@import "minimal-mistakes"; // Import the theme's styles
+
+/* Custom styles */
+.wide {
+  max-width: 90%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the content */
+}
+
+/* Add any other custom styles here */
